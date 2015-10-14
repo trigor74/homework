@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Homework</string>
+    <string name="str_description">Geek Hub 2015/2016 Homework</string>
+
+    <string name="task1_name">Task 1 \"Hello, World!\"</string>
+    <string name="str_say_hello">Say Hello</string>
+    <string name="str_hello">Hello, World!</string>
+    <string name="str_introduce">I\'m the first program \"Hello, World!\"</string>
+    <string name="str_what_your_name">What is your name?</string>
+    <string name="str_enter_name">Enter your name, please</string>
+    <string name="str_hello_smb">Hello, %s!</string>
+    <string name="label_acquaintance">Let\'s get acquainted?</string>
+    <string name="str_introduce_myself">Introduce Myself</string>
+
+    <string name="task2_name">Task 2 \"Fibonacci and Factorial\"</string>
+</resources>
