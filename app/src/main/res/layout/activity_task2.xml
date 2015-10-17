@@ -3,4 +3,46 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:id="@+id/txt_task2_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/str_task2_description"
+         />
+
+    <EditText
+        android:id="@+id/edit_number"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/str_enter_number"
+         />
+
+    <Button
+        android:id="@+id/btn_calculate"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_calculate"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/txt_fibonacci"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+         />
+
+    <TextView
+        android:id="@+id/txt_factorial"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+         />
+
 </LinearLayout>

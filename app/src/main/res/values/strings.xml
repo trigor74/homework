@@ -8,9 +8,15 @@
     <string name="str_introduce">I\'m the first program \"Hello, World!\"</string>
     <string name="str_what_your_name">What is your name?</string>
     <string name="str_enter_name">Enter your name, please</string>
-    <string name="str_hello_smb">Hello, %s!</string>
+    <string name="str_hello_smb" formatted="false">Hello, %s!</string>
     <string name="label_acquaintance">Let\'s get acquainted?</string>
     <string name="str_introduce_myself">Introduce Myself</string>
 
     <string name="task2_name">Task 2 \"Fibonacci and Factorial\"</string>
+    <string name="str_task2_description">Calculating of the n-th element of the Fibonacci sequence and the factorial of the number</string>
+    <string name="str_enter_number">Enter number</string>
+    <string name="str_calculate">Calculate</string>
+    <string name="str_fibonacci" formatted="false">Fibonacci of %d: %d</string>
+    <string name="str_factorial" formatted="false">Factorial of %d: %d</string>
+    <string name="str_err_overflow">Overflow: The number is too large to calculate</string>
 </resources>
