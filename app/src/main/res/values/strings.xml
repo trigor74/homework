@@ -14,9 +14,11 @@
 
     <string name="task2_name">Task 2 \"Fibonacci and Factorial\"</string>
     <string name="str_task2_description">Calculating of the n-th element of the Fibonacci sequence and the factorial of the number</string>
-    <string name="str_enter_number">Enter number</string>
+    <string name="str_enter_number">Enter number, please</string>
     <string name="str_calculate">Calculate</string>
     <string name="str_fibonacci" formatted="false">Fibonacci of %d: %d</string>
     <string name="str_factorial" formatted="false">Factorial of %d: %d</string>
-    <string name="str_err_overflow">Overflow: The number is too large to calculate</string>
+    <string name="str_error" formatted="false">Error: %s</string>
+    <string name="str_err_fibonacci" formatted="false">Fibonacci: Error calculating. %s</string>
+    <string name="str_err_factorial" formatted="false">Factorial: Error calculating. %s</string>
 </resources>
