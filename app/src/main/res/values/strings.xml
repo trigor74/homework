@@ -21,4 +21,7 @@
     <string name="str_error" formatted="false">Error: %s</string>
     <string name="str_err_fibonacci" formatted="false">Fibonacci: Error calculating. %s</string>
     <string name="str_err_factorial" formatted="false">Factorial: Error calculating. %s</string>
+
+    <string name="task3_name">Task 3 \"Collections\"</string>
+
 </resources>

@@ -28,6 +28,9 @@
         <activity android:name=".Task2Activity" android:label="@string/task2_name">
         </activity>
 
+        <activity android:name=".Task3Activity" android:label="@string/task3_name">
+        </activity>
+
     </application>
 
 </manifest>

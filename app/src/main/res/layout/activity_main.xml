@@ -38,4 +38,14 @@
         android:text="@string/task2_name"
         android:textAllCaps="false" />
 
+    <Button
+        android:id="@+id/btn_task3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btn_task2"
+        android:text="@string/task3_name"
+        android:textAllCaps="false" />
+
 </RelativeLayout>
