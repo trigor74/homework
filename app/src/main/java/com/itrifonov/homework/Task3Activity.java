@@ -47,11 +47,11 @@ public class Task3Activity extends AppCompatActivity implements View.OnClickList
     private void reverseOrder() {
         TextView text2 = (TextView) findViewById(R.id.text_2);
 
-        LinkedList<String> linkedList = new LinkedList<>();
-        linkedList.addAll(Arrays.asList(values));
-        Collections.reverse(linkedList);
+        ArrayList<String> arrayList = new ArrayList<>();
+        arrayList.addAll(Arrays.asList(values));
+        Collections.reverse(arrayList);
 
-        text2.setText(linkedList.toString());
+        text2.setText(arrayList.toString());
     }
 
     private void removeEveryThird() {
