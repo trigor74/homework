@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashSet;
-import java.util.LinkedList;
+import java.util.PriorityQueue;
 
 public class Task3Activity extends AppCompatActivity implements View.OnClickListener {
 
@@ -81,11 +81,14 @@ public class Task3Activity extends AppCompatActivity implements View.OnClickList
     private void sortValues() {
         TextView text2 = (TextView) findViewById(R.id.text_2);
 
-        LinkedList<String> linkedList = new LinkedList<>();
-        linkedList.addAll(Arrays.asList(values));
-        Collections.sort(linkedList, String.CASE_INSENSITIVE_ORDER);
+        PriorityQueue<String> priorityQueue = new PriorityQueue<>(values.length, String.CASE_INSENSITIVE_ORDER);
+        priorityQueue.addAll(Arrays.asList(values));
 
-        text2.setText(linkedList.toString());
+        ArrayList<String> arrayList = new ArrayList<>();
+        while (!priorityQueue.isEmpty())
+            arrayList.add(priorityQueue.poll());
+
+        text2.setText(arrayList.toString());
     }
 
     @Override
