@@ -24,4 +24,7 @@
 
     <string name="task3_name">Task 3 \"Collections\"</string>
 
+    <string name="task4_name">Task 4 \"OOP\"</string>
+    <string name="str_previous">Previous</string>
+    <string name="str_next">Next</string>
 </resources>
