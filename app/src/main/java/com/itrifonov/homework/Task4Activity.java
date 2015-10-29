@@ -15,5 +15,7 @@ public class Task4Activity extends BaseActivity {
     protected void addFragment() {
         FragmentManager fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction().add(R.id.task4_main_layout, new NavigationFragment()).commit();
+        //fragmentManager.beginTransaction().add(R.id.task4_main_layout, new NextFragment()).commit();
+        //fragmentManager.beginTransaction().add(R.id.task4_main_layout, new PreviousFragment()).commit();
     }
 }
