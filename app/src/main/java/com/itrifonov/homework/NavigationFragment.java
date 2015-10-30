@@ -7,7 +7,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.Toast;
+
+import com.itrifonov.homework.interfaces.INavigation;
 
 public class NavigationFragment extends Fragment implements View.OnClickListener {
     @Nullable
@@ -26,15 +27,17 @@ public class NavigationFragment extends Fragment implements View.OnClickListener
 
     @Override
     public void onClick(View v) {
+        INavigation navigationInterface = (INavigation) getActivity();
         switch (v.getId()) {
             case R.id.btn_previous:
-                Toast.makeText(getActivity(), "Previous button pressed", Toast.LENGTH_SHORT).show();
+                if (navigationInterface != null)
+                    navigationInterface.showPrevious();
                 break;
             case R.id.btn_next:
-                Toast.makeText(getActivity(), "Next button pressed", Toast.LENGTH_SHORT).show();
+                if (navigationInterface != null)
+                    navigationInterface.showNext();
                 break;
         }
     }
-
 
 }
