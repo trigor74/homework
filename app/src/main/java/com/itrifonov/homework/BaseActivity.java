@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 
 abstract public class BaseActivity extends AppCompatActivity {
 
-    abstract protected boolean isAddFragment();
+    abstract public boolean isAddFragment();
     abstract protected void addFragment();
 
     @Override
@@ -14,7 +14,8 @@ abstract public class BaseActivity extends AppCompatActivity {
 
         if (isAddFragment()) {
             setContentView(R.layout.activity_task4);
-            addFragment();
+            if (savedInstanceState == null)
+                addFragment();
         } else {
             setContentView(R.layout.activity_task4);
         }
