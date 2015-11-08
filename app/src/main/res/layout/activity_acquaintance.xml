@@ -4,6 +4,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <include layout="@layout/app_actionbar" />
+
     <TextView
         android:id="@+id/txt_introduce"
         android:layout_width="wrap_content"

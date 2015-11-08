@@ -2,7 +2,9 @@ package com.itrifonov.homework;
 
 
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.TextView;
@@ -15,14 +17,21 @@ import java.util.PriorityQueue;
 
 public class Task3Activity extends AppCompatActivity implements View.OnClickListener {
 
-    private String[] values = new String[] { "Android", "iPhone", "WindowsMobile",
+    private String[] values = new String[]{"Android", "iPhone", "WindowsMobile",
             "Blackberry", "Ubuntu", "Windows7", "Mac OS X", "Linux", "Ubuntu", "Windows7",
-            "Mac OS X", "Linux", "Ubuntu", "Windows7", "Android", "iPhone", "WindowsMobile" };
+            "Mac OS X", "Linux", "Ubuntu", "Windows7", "Android", "iPhone", "WindowsMobile"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_task3);
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null) {
+            actionBar.setDisplayHomeAsUpEnabled(true);
+        }
 
         createAndShowNumbers();
 
@@ -60,7 +69,7 @@ public class Task3Activity extends AppCompatActivity implements View.OnClickList
         ArrayList<String> arrayList = new ArrayList<>();
         arrayList.addAll(Arrays.asList(values));
 
-        int i=2;
+        int i = 2;
         while (i < arrayList.size()) {
             arrayList.remove(i);
             i += 2;
