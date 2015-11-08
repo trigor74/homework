@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Homework</string>
     <string name="str_description">Geek Hub Android 2015/2016 Homework</string>
+    <string name="str_nav_description">Homework tasks list</string>
 
     <string name="task1_name">Task 1 \"Hello, World!\"</string>
     <string name="str_say_hello">Say Hello</string>
@@ -29,48 +30,10 @@
     <string name="str_next">Next</string>
 
     <string name="task5_name">Task 5 \"Back Stack. UI\"</string>
-    <string name="str_animation1">Animation1</string>
-    <string name="str_animation2">Animation2</string>
-    <string name="str_animation3">Animation3</string>
-    <string name="str_animation4">Animation4</string>
-    <string name="str_nav_description">Homework tasks list</string>
-    <string name="str_task5_list_description">The world\'s most beautiful cities</string>
-    <string-array name="task5_item_list">
-        <item>Isfahan, Iran</item>
-        <item>Florence, Italy</item>
-        <item>Luang Prabang, Laos</item>
-        <item>Paris, France</item>
-        <item>Istanbul, Turkey</item>
-        <item>Siena, Italy</item>
-        <item>Jerusalem</item>
-        <item>Oxford, UK</item>
-        <item>Cambridge, UK</item>
-        <item>New York, USA</item>
-        <item>Rome, Italy</item>
-        <item>Cape Town, South Africa</item>
-        <item>Sydney, Australia</item>
-        <item>Bruges, Belgium</item>
-        <item>Fes, Morocco</item>
-        <item>Seville, Spain</item>
-        <item>Cartagena, Colombia</item>
-        <item>San Francisco, USA</item>
-        <item>Jodhpur, India</item>
-        <item>Bath, UK</item>
-        <item>Lausanne, Switzerland</item>
-        <item>Tallinn, Estonia</item>
-        <item>Riga, Latvia</item>
-        <item>Venice, Italy</item>
-        <item>Khiva, Uzbekistan</item>
-        <item>Edinburgh, Scotland</item>
-        <item>London, England</item>
-        <item>Havana, Cuba</item>
-        <item>Prague, Czech Republic</item>
-        <item>Kyoto, Japan</item>
-        <item>Moscow, Russia</item>
-        <item>St. Petersburg, Russia</item>
-        <item>Dubrovnik, Croatia</item>
-        <item>Suzhou, China</item>
-        <item>Rio de Janeiro, Brazil</item>
-    </string-array>
-
+    <string name="str_animation_options">Options</string>
+    <string name="str_animation1">Fade In</string>
+    <string name="str_animation2">Slide Down</string>
+    <string name="str_animation3">Rotate</string>
+    <string name="str_animation4">Shake</string>
+    <string name="str_test_animation">Test Animation</string>
 </resources>

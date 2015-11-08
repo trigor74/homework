@@ -2,7 +2,8 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:title="Animation"
+        android:title="@string/str_animation_options"
+        android:icon="@drawable/ic_settings_white_24dp"
         app:showAsAction="ifRoom|withText">
         <menu>
             <group android:checkableBehavior="single">

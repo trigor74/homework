@@ -6,9 +6,24 @@
 
     <include layout="@layout/app_actionbar" />
 
-    <ListView
-        android:id="@+id/task5_list"
+    <Button
+        android:id="@+id/btn_animate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/str_test_animation" />
+
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_animate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/mrbin"
+            android:visibility="invisible" />
+    </RelativeLayout>
 
 </LinearLayout>
