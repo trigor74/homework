@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Animation"
+        app:showAsAction="ifRoom|withText">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/animation1"
+                    android:title="@string/str_animation1"
+                    android:checked="true"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/animation2"
+                    android:title="@string/str_animation2"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/animation3"
+                    android:title="@string/str_animation3"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/animation4"
+                    android:title="@string/str_animation4"
+                    app:showAsAction="never" />
+            </group>
+        </menu>
+    </item>
+</menu>
