@@ -8,6 +8,19 @@ import android.view.View;
 import android.view.ViewGroup;
 
 public class Task6InfoFragment extends Fragment {
+
+    public static String ARG_POSITION = "INDEX";
+
+    public void updateInfoView (int position) {
+        // TODO: 14.11.15 add logic
+    }
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        // setRetainInstance(true);
+    }
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
