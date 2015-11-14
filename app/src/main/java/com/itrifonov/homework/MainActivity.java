@@ -53,6 +53,9 @@ public class MainActivity extends AppCompatActivity
             case R.id.nav_task5:
                 startActivity(new Intent(this, Task5Activity.class));
                 break;
+            case R.id.nav_task6:
+                startActivity(new Intent(this, Task6Activity.class));
+                break;
         }
         mDrawerLayout.closeDrawers();
         return false;

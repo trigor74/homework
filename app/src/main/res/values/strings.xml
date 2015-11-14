@@ -36,4 +36,7 @@
     <string name="str_animation3">Rotate</string>
     <string name="str_animation4">Shake</string>
     <string name="str_test_animation">Test Animation</string>
+
+    <string name="task6_name">Task 6 \"Flexible UI\"</string>
+
 </resources>

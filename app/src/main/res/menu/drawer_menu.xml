@@ -21,5 +21,9 @@
             android:id="@+id/nav_task5"
             android:icon="@drawable/ic_launch_black_24dp"
             android:title="@string/task5_name" />
+        <item
+            android:id="@+id/nav_task6"
+            android:icon="@drawable/ic_launch_black_24dp"
+            android:title="@string/task6_name" />
     </group>
 </menu>
