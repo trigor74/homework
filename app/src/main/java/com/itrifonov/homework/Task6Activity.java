@@ -24,7 +24,7 @@ public class Task6Activity extends AppCompatActivity
         }
 
         FragmentManager fragmentManager = getSupportFragmentManager();
-        // clear fragment BackStack
+        // clear fragments BackStack
         fragmentManager.popBackStack(null, FragmentManager.POP_BACK_STACK_INCLUSIVE);
 
         FragmentTransaction transaction = fragmentManager.beginTransaction();
@@ -45,12 +45,12 @@ public class Task6Activity extends AppCompatActivity
     @Override
     public void onListItemSelected(int position) {
         FragmentManager fragmentManager = getSupportFragmentManager();
-        Task6InfoFragment infoFragment = (Task6InfoFragment) fragmentManager.findFragmentById(R.id.task6_info);
         if (findViewById(R.id.task6_info) != null) {
+            Task6InfoFragment infoFragment = (Task6InfoFragment) fragmentManager.findFragmentById(R.id.task6_info);
             if (infoFragment != null)
                 infoFragment.updateInfoView(position);
         } else {
-            infoFragment = new Task6InfoFragment();
+            Task6InfoFragment infoFragment = new Task6InfoFragment();
             Bundle args = new Bundle();
             args.putInt(Task6InfoFragment.ARG_POSITION, position);
             infoFragment.setArguments(args);

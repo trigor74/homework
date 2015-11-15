@@ -54,7 +54,8 @@ public class Task6ListFragment extends Fragment {
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        mSourceList.addAll(Arrays.asList(getResources().getStringArray(R.array.task6_item_list)));
+        mSourceList.clear();
+        mSourceList.addAll(Arrays.asList(getResources().getStringArray(R.array.task6_items_list)));
         mAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, mSourceList);
         mListView = (ListView) getActivity().findViewById(R.id.task6_list_view);
     }

@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
+        mDrawerLayout.closeDrawers();
         switch (item.getItemId()) {
             case R.id.nav_task1:
                 startActivity(new Intent(this, Task1Activity.class));
@@ -57,7 +58,6 @@ public class MainActivity extends AppCompatActivity
                 startActivity(new Intent(this, Task6Activity.class));
                 break;
         }
-        mDrawerLayout.closeDrawers();
         return false;
     }
 

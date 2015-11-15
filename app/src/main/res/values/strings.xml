@@ -37,9 +37,9 @@
     <string name="str_animation4">Shake</string>
     <string name="str_test_animation">Test Animation</string>
 
-    <string name="task6_name">Task 6 \"Flexible UI\"</string>
+    <string name="task6_name">Task 6 \"UI. Layouts. Fragments.\"</string>
     <string name="str_task6_list_description">The world\'s most beautiful cities</string>
-    <string-array name="task6_item_list">
+    <string-array name="task6_items_list">
         <item>Isfahan, Iran</item>
         <item>Florence, Italy</item>
         <item>Luang Prabang, Laos</item>
@@ -55,26 +55,40 @@
         <item>Sydney, Australia</item>
         <item>Bruges, Belgium</item>
         <item>Fes, Morocco</item>
-        <item>Seville, Spain</item>
-        <item>Cartagena, Colombia</item>
-        <item>San Francisco, USA</item>
-        <item>Jodhpur, India</item>
-        <item>Bath, UK</item>
-        <item>Lausanne, Switzerland</item>
-        <item>Tallinn, Estonia</item>
-        <item>Riga, Latvia</item>
-        <item>Venice, Italy</item>
-        <item>Khiva, Uzbekistan</item>
-        <item>Edinburgh, Scotland</item>
-        <item>London, England</item>
-        <item>Havana, Cuba</item>
-        <item>Prague, Czech Republic</item>
-        <item>Kyoto, Japan</item>
-        <item>Moscow, Russia</item>
-        <item>St. Petersburg, Russia</item>
-        <item>Dubrovnik, Croatia</item>
-        <item>Suzhou, China</item>
-        <item>Rio de Janeiro, Brazil</item>
     </string-array>
+    <array name="task6_items_description">
+        <item>Robert Byron, in his 1930s travelogue, The Road to Oxiana, wrote of Isfahan: \"Isfahan has become indelible, has insinuated its image into that gallery of places that everybody privately treasures. I gave it no help in doing so. The monuments have kept me too busy.One could explore for months without coming to the end of them. From the 11th century, architects and craftsmen have recorded the fortunes of the town, its changes of taste, government and belief. The buildings reflect these local circumstances; it is their charm, like the charm of most old towns. But a few illustrate the heights of art independently, and rank Isfahan among those rarer places, like Athens or Rome, which are the common refreshment of humanity.\"</item>
+        <item>More than one member of the Telegraph Travel desk has been moved to tears by the beauty of this Tuscan city, bespeckled with art galleries and museums (the Uffizi, the Bargello, the Accademia Gallery), churches (Santa Maria Novella, Santa Croce) and the Arno traversed by the Ponte Vecchio. But as with most of the best cities, its beauty lies not in the institutions. You could perhaps not even enter any of its exhibitions or grand buildings, and instead admire the birthplace of the Italian Renaissance from its cobbled streets, where swish young Italians mingle with wizened old folk who have aged unsurprisingly well in such civilised surroundings. Go, and don’t be surprised if you shed a tear.</item>
+        <item>Featuring more highly on tour routes since it was awarded Unesco World Heritage status 20 years ago, Luang Prabang has managed to retain a great deal of its beauty, using the revenue provided by extra visitors to renovate old buildings and temples. Its beauty also comes in its extraordinary setting, in a valley at the confluence of the Mekong and Nam Khan rivers among lush jungle. John Graham-Hart, visiting last year, wrote: \"Luang Prabang was a magical place a decade ago and is still very much a magical place today… The city is just gently joining the 21st century and, after weathering so many centuries, what, after all, is just one more?\"</item>
+        <item>The love locks ruined the bridges, the tourist tat and queues spoiled the areas around the Eiffel Tower and on Ile de la Cite. But as the leaves curl from green to gold, the twirl of benches and Metro stations and Haussmann’s sweeping boulevards still make Paris one of the most attractive cities on Earth. Loll on the grass of the Parc des Buttes-Chaumont, complete with its lake and folly, admire Parisians’ haughty attitude towards the quality of produce on the food markets that spill into the streets every week (your white asparagus? Not tender enough! Your truffles? Not French!) and allow the collections of the Musee d’Orsay to bring a tear to your eye.</item>
+        <item>The capital of the Ottoman Empire is incomparable. The masterpieces of former powerful (and despotic) rulers include the Topkapi Palace, which housed sultans, their eunuchs and slaves, and the Suleimaniye and Sultanahmet Mosques. The blush-pink Aya Sofya – first church, then mosque, now museum – is truly beautiful, too: Nick Trend, deputy head of Telegraph Travel, describes a visit there as “profoundly moving”. But what keeps Istanbul from turning into a tourist time warp is the regeneration of once seedy neighbourhoods and thriving young communities: Karaköy, a former run-down fringe of the city’s port, has been regenerated and is now home to boutique hotels, artists’ galleries and Ottoman houses that over the centuries have housed European communities, leading to an amalgamation of synagogues, mosques and leaning, elegant houses.</item>
+        <item>If there is one fellow tourist too many in Florence, think to head south to Siena. Tim Jepson, Telegraph Travel’s Tuscany expert, describes the city’s Campo – its central piazza – “Europe’s finest medieval square” and praises its scale and intimacy: it is a “place alla misura dell’uomo, or ‘made to the measure of man’… its sleepy, honey-stoned streets are in marked medieval contrast to the more gaunt and impersonal grandeur of Florence’s Renaissance heart.”</item>
+        <item>A holy site for the world’s three main monotheistic faiths, Jerusalem has been inhabited since 4,000 BC. It political woes are well known, but tourists should not be put off visiting. Unmissable sights include the Haram as-Sharif (Temple Mount), including the shimmering gold Dome of the Rock, the Church of the Holy Sepulchre and Via Dolorosa. Expect not to fit in everything in one visit, and to want to return to an ancient, conflicted, but mesmerising city.</item>
+        <item>Oxford and Cambridge vie for premier position in many ways: rowing, academic excellence, notoriety of drinking clubs and debating societies…there are also two schools of thought over which is more picturesque. Oxford advocates will point to the Radcliffe Camera – more commonly referred to as the Rad Cam by students, many of whom will be avoiding actually reading any of the books it contains – the main Bodleian Library building, and the quite spectacular precincts of All Souls’ College, founded by Henry VI in 1438. It will probably make you feel slightly more intelligent just by looking at it. Magdalen College, on the other hand, has gardens so beautiful you may feel moved to bursting into song. Just maybe.</item>
+        <item>Proponents of Cambridge’s superiority, however, will point to its intimacy, lack of poncy Cotswold stone buildings, and the simply superb architecture of King’s College. There is also a relative lack of ugly modern shopping precincts that blight the Oxfordshire contender’s centre.</item>
+        <item>From red-brick apartment blocks that have featured in many a New York-based television series (hello Friends) to the soaring peaks of the Empire State Building and the newly-opened One World Observatory, New York is a city to be reckoned with. The Met Museum has collections that remind one of the wealth of early 20th century businessmen and investors, who bought up the works of French Impressionists by the lorry load. Forget not the beauty to be found in its everyday streets and interactions, too: the Humans of New York photo series is a reminder that you needn’t head to the Rockefeller ice rink to find freeze frames that stick in the mind.</item>
+        <item>There is little more to add to Lee Marshall, Telegraph Travel’s Rome expert, of the Eternal City’s appeal: It has “a pulsating energy of a place which lives life as a form of theatre.” The scale, archaeological finesse and craftsmanship shown in the Colosseum, the Pantheon, the Forum and the Palatine, the Baths of Caracalla… (the list goes on) hint at the might and intelligence of an empire that was making strides when the occupants of England were still living in mud shacks in fields.</item>
+        <item>Pippa De Bruyn, our Cape Town expert, is right when she says that there is really no way to overstate the case for visiting the South African city: “First, there’s the in-your-face beauty of a craggy mountain range that drops precipitously into a glittering sea, its flanks carpeted in greens and delicate florals – the Cape Floral Kingdom, smallest yet richest in the world. Then there’s the pristine white beaches lapped by – it must be said – a chilly Atlantic, their curves defined by giant granite boulders.” Couple this with good food, better wine, thriving art scene and possibly one of the best ranges of accommodation in the southern hemisphere, from boutique guesthouse to luxury resort – and there is little reason not to visit.</item>
+        <item>“Ridiculously good looking” is how our city expert Ariela Bard describes Sydney. It has the Opera House, which was designed by Danish architect Jorn Utzon in 1956 with sails made from over one million white tiles. It has Bondi Beach – one of just many stretches of alluring sand on this stretch of the eastern Australian coast. It has Centennial Park, which stretches over 540 acres of formal gardens, 10 ponds, and bike-friendly parkland. It has vibrant food, bar, and arts scenes. There is a reason Sydney is the go-to for pretty much every British tourist heading to Australasia.</item>
+        <item>Colin Farrell - star of the brilliant 2008 film In Bruges - wasn\'t impressed, but every other visitor to this Belgian gem will be seduced by the almost perfect medieval ensemble of canals, churches, squares and cobbled streets. Not to mention the undeniably beautiful chips, chocolate and local beers.</item>
+        <item>Forget Marrakesh. Infinitely more stylish is Fes, primarily its ninth-century medina – the largest urban car-free area in the world – that secretes tiny doors, behind which sit beautiful spaces converted into boutique riad hotels (as with much vernacular architecture in the Islamic world, what lies within is much more beautiful than the often dull exteriors). Try the Palais Amani, where Nigel Tisdall got a taste of Fes’s emerging culinary scene, or the Riad Anata, with its brass lanterns, rich pink chairs and bejmat (unglazed terracotta) floors. Accommodation aside, strike out up the hill – partly covered with an Islamic cemetery – that overlooks the city just before sunset to hear the call to prayer ring round, the teeny green lights of mosques grow brighter and brighter, and swallows flicker across a lazy blue sky.</item>
+    </array>
+    <array name="task6_items_image">
+        <item>@drawable/isfahan</item>
+        <item>@drawable/florence</item>
+        <item>@drawable/lp</item>
+        <item>@drawable/paris</item>
+        <item>@drawable/istanbul</item>
+        <item>@drawable/siena</item>
+        <item>@drawable/beautful_jerusalem</item>
+        <item>@drawable/oxford</item>
+        <item>@drawable/cambridge</item>
+        <item>@drawable/new_york</item>
+        <item>@drawable/beautiful_rome</item>
+        <item>@drawable/beautiful_cape_town</item>
+        <item>@drawable/beautiful_sydney</item>
+        <item>@drawable/bruges</item>
+        <item>@drawable/fez</item>
+    </array>
 
 </resources>
